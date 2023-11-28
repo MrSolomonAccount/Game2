@@ -6,5 +6,10 @@ namespace Game2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("You just learned to pull changes form github");
+        }
     }
 }
